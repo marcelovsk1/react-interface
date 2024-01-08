@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,7 +5,7 @@ function App() {
     <main>
       <header>
         <div>
-          <img src="" alt="" />
+          <img src="./logo-summerly.svg" alt="" />
           <div>
             <spam>summerly</spam>
             <spam>media</spam>
