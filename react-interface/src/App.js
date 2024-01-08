@@ -11,7 +11,12 @@ function App() {
           <a href="#samba">SAMBA</a>
           <a href="#campus">CAMPUS</a>
         </nav>
-        <button className="login-btn">Login In</button>
+        <button>
+          <div className="btn-face-blue">
+            Login
+          </div>
+
+          </button>
       </header>
     </main>
   );
