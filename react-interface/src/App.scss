@@ -54,6 +54,7 @@ main {
       background-color: $color-primary;
       font-weight: 700;
       font-size: 16px;
+      cursor: pointer;
 
       div {
         cursor: pointer;
@@ -62,7 +63,9 @@ main {
       &:hover {
         background-color: $color-primary-2;
         color: $color-primary;
-        transition: all 600ms;
+        // transition: all 600ms;
+        transition: background-color 0.8s ease, color 0.8s ease;
+        animation: appear 400ms linear 100ms forwards;
       }
   }
 }
