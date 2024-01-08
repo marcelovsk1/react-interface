@@ -1,16 +1,16 @@
-import './App.scss'
+import './App.scss';
 
 function App() {
   return (
     <main>
       <header className="header-container">
-        <div className="logo-container">
-          <img src="./logo-summerly.svg" alt="" />
-          <div className="text-logo">
-            {/* <spam className="text-logo-bold">summerly</spam>
-            <spam className="text-logo-regular">media</spam> */}
-          </div>
-        </div>
+        <img src="./logo-summerly.svg" alt="" />
+        <nav className="menu-options">
+          <a href="#what-we-offer">What we offer</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#portfolio">Portfolio</a>
+        </nav>
+        <button>Contact us</button>
       </header>
     </main>
   );
