@@ -7,8 +7,8 @@ function App() {
         <div className="logo-container">
           <img src="./logo-summerly.svg" alt="" />
           <div className="text-logo">
-            <spam className="text-logo-bold">summerly</spam>
-            <spam className="text-logo-regular">media</spam>
+            {/* <spam className="text-logo-bold">summerly</spam>
+            <spam className="text-logo-regular">media</spam> */}
           </div>
         </div>
       </header>
