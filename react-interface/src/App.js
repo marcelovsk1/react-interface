@@ -7,6 +7,8 @@ function App() {
       <header>
         <div>
           <img src="" alt="" />
+          <spam>summerly</spam>
+          <spam>media</spam>
         </div>
       </header>
     </main>
