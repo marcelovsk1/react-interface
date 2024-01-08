@@ -6,9 +6,10 @@ function App() {
       <header className="header-container">
         <img src="https://logodownload.org/wp-content/uploads/2019/11/adidas-originals-logo.png" className="logo-pic" alt="" />
         <nav className="menu-options">
-          <a href="#what-we-offer">GAZELLE</a>
-          <a href="#how-it-works">SPEZIAL</a>
-          <a href="#portfolio">SAMBA</a>
+          <a href="#gazelle">GAZELLE</a>
+          <a href="#spezial">SPEZIAL</a>
+          <a href="#samba">SAMBA</a>
+          <a href="#campus">CAMPUS</a>
         </nav>
         <button>Login In</button>
       </header>
